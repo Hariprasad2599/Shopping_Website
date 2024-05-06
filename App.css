@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  /* text-decoration: underline; */
+}
+.product-page nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.product-page nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between buttons */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
